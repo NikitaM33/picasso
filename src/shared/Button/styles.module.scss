@@ -1,0 +1,18 @@
+.view {
+    padding: 0.5rem 1rem;
+    background: rgb(71, 99, 255);
+    border: none;
+    border-radius: 0.25rem;
+    outline: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+
+    &:hover {
+        background: lighten(rgb(71, 99, 255), 5%);
+    }   
+    
+    &:active {
+        transform: translate(0, 0.04rem);
+    }
+}
